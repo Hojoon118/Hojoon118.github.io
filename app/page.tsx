@@ -58,7 +58,7 @@ export default function Home() {
         <nav className="header-links" aria-label="Primary navigation">
           <a href="https://github.com/Hjkim118" target="_blank" rel="noreferrer">GitHub ↗</a>
           <a href="https://www.linkedin.com/in/h-j-kim" target="_blank" rel="noreferrer">LinkedIn ↗</a>
-          <a href="mailto:kimhojoon118@gmail.com">Email ↗</a>
+          <a href="mailto:kimhojoon118@gmail.com?subject=Portfolio%20Inquiry%20-%20Software%20Engineering%20or%20Applied%20AI%20Opportunity">Email ↗</a>
         </nav>
       </header>
 
@@ -288,9 +288,7 @@ export default function Home() {
           <p className="contact-intro">Open to software engineering and applied AI opportunities in the United States.</p>
         </div>
         <div className="contact-list">
-          <a href="mailto:kimhojoon118@gmail.com"><span>Email</span>kimhojoon118@gmail.com <b>↗</b></a>
-          <a href="tel:+12135898769"><span>United States</span>🇺🇸 +1 (213) 589-8769 <b>↗</b></a>
-          <a href="tel:+821021092278"><span>South Korea</span>🇰🇷 +82 10-2109-2278 <b>↗</b></a>
+          <a href="mailto:kimhojoon118@gmail.com?subject=Portfolio%20Inquiry%20-%20Software%20Engineering%20or%20Applied%20AI%20Opportunity"><span>Email</span>kimhojoon118@gmail.com <b>↗</b></a>
           <a href="https://www.linkedin.com/in/h-j-kim" target="_blank" rel="noreferrer"><span>LinkedIn</span>linkedin.com/in/h-j-kim <b>↗</b></a>
         </div>
       </section>
