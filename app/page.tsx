@@ -56,7 +56,7 @@ export default function Home() {
           HOJOON KIM<span>.</span>
         </a>
         <nav className="header-links" aria-label="Primary navigation">
-          <a href="https://github.com/Hjkim118" target="_blank" rel="noreferrer">GitHub ↗</a>
+          <a href="https://github.com/Hojoon118" target="_blank" rel="noreferrer">GitHub ↗</a>
           <a href="https://www.linkedin.com/in/h-j-kim" target="_blank" rel="noreferrer">LinkedIn ↗</a>
           <a href="mailto:kimhojoon118@gmail.com?subject=Portfolio%20Inquiry%20-%20Software%20Engineering%20or%20Applied%20AI%20Opportunity">Email ↗</a>
         </nav>
@@ -273,9 +273,9 @@ export default function Home() {
               careful implementation, experimentation, and collaborative delivery all matter.
             </p>
             <div className="account-links">
-              <a href="https://github.com/Hjkim118" target="_blank" rel="noreferrer"><span>Primary GitHub</span> Hjkim118 ↗</a>
+              <a href="https://github.com/Hojoon118" target="_blank" rel="noreferrer"><span>Primary GitHub</span> Hojoon118 ↗</a>
               <a href="https://github.com/hojoon0118" target="_blank" rel="noreferrer"><span>Data projects</span> hojoon0118 ↗</a>
-              <a href="https://github.com/Hojoon118" target="_blank" rel="noreferrer"><span>Additional work</span> Hojoon118 ↗</a>
+              <a href="https://github.com/Hjkim118" target="_blank" rel="noreferrer"><span>Coursework & team projects</span> Hjkim118 ↗</a>
             </div>
           </div>
         </div>
