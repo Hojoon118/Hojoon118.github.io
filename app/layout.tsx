@@ -13,20 +13,20 @@ export async function generateMetadata(): Promise<Metadata> {
 
   return {
     metadataBase: base,
-    title: "Hojoon — Portfolio",
-    description: "Software engineering, machine learning, and data projects by UC San Diego computer science student Hojoon Kim.",
+    title: "Hojoon Kim — Software Engineer & Applied AI",
+    description: "Portfolio of Hojoon Kim, a UC San Diego computer science student building software products and applied AI systems.",
     icons: { icon: "/favicon.svg", shortcut: "/favicon.svg" },
     openGraph: {
-      title: "Hojoon — Portfolio",
-      description: "Software engineering, machine learning, and data projects by Hojoon Kim.",
+      title: "Hojoon Kim — Software Engineer & Applied AI",
+      description: "Software engineering, applied AI, and product work by Hojoon Kim.",
       type: "website",
-      images: [{ url: new URL("/og-v2.png", base), width: 1200, height: 630, alt: "Hojoon Kim — Software, ML, and Data" }],
+      images: [{ url: new URL("/og-v3.png", base), width: 1200, height: 630, alt: "Hojoon Kim — Software Engineer and Applied AI" }],
     },
     twitter: {
       card: "summary_large_image",
-      title: "Hojoon — Portfolio",
-      description: "Software engineering, machine learning, and data projects by Hojoon Kim.",
-      images: [new URL("/og-v2.png", base)],
+      title: "Hojoon Kim — Software Engineer & Applied AI",
+      description: "Software engineering, applied AI, and product work by Hojoon Kim.",
+      images: [new URL("/og-v3.png", base)],
     },
   };
 }
