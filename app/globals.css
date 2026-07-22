@@ -187,14 +187,9 @@ a { color: inherit; text-decoration: none; }
 .profile-section .section-title > p { color: #aab5b3; }
 .profile-grid { max-width: 1380px; margin: 0 auto; display: grid; grid-template-columns: 1fr 1fr; gap: clamp(4rem, 9vw, 10rem); }
 .education-column > article { padding: 2rem 0; border-top: 1px solid #384442; }
-.education-column > article p { margin: 0 0 1rem; color: #75c8c0; font-size: .68rem; letter-spacing: .08em; text-transform: uppercase; }
 .education-column > article h3 { margin: 0 0 .5rem; font-size: clamp(1.4rem, 2.7vw, 2.4rem); letter-spacing: -.04em; font-weight: 520; }
 .education-column > article span { color: #aab5b3; font-size: .85rem; }
-.leadership-block { margin-top: 3rem; }
 .small-label { color: #75c8c0; margin: 0 0 1.4rem; }
-.leadership-block ul { margin: 0; padding: 0; list-style: none; }
-.leadership-block li { padding: .85rem 0; border-bottom: 1px solid #2c3937; color: #b6c0be; font-size: .82rem; }
-.leadership-block li span { width: 120px; display: inline-block; color: white; }
 .skill-list { display: flex; flex-wrap: wrap; gap: .55rem; }
 .skill-list span { padding: .65rem .85rem; border: 1px solid #3b4947; color: #c5cecc; font-size: .72rem; transition: background .2s, color .2s, border-color .2s; }
 .skill-list span:hover { background: var(--teal); border-color: var(--teal); color: white; }

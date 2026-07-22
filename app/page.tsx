@@ -257,24 +257,11 @@ export default function Home() {
         </div>
         <div className="profile-grid">
           <div className="education-column">
+            <p className="small-label">Education</p>
             <article>
-              <p>2023 — Present</p>
               <h3>University of California, San Diego</h3>
               <span>B.S. Computer Science</span>
             </article>
-            <article>
-              <p>2021 — 2023</p>
-              <h3>Diablo Valley College</h3>
-              <span>Computer Science</span>
-            </article>
-            <div className="leadership-block">
-              <p className="small-label">Leadership</p>
-              <ul>
-                <li><span>President</span> Korea Student Association</li>
-                <li><span>Board Member</span> LikeLion US</li>
-                <li><span>Project Leader</span> GLO at UC Berkeley</li>
-              </ul>
-            </div>
           </div>
           <div className="skills-column">
             <p className="small-label">Technical toolkit</p>
