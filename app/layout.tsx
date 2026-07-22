@@ -14,19 +14,19 @@ export async function generateMetadata(): Promise<Metadata> {
   return {
     metadataBase: base,
     title: "Hojoon — Portfolio",
-    description: "Selected work and ideas by Hojoon, a multidisciplinary creator in Seoul.",
+    description: "Software engineering, machine learning, and data projects by UC San Diego computer science student Hojoon Kim.",
     icons: { icon: "/favicon.svg", shortcut: "/favicon.svg" },
     openGraph: {
       title: "Hojoon — Portfolio",
-      description: "I turn curiosity into useful things.",
+      description: "Software engineering, machine learning, and data projects by Hojoon Kim.",
       type: "website",
-      images: [{ url: new URL("/og.png", base), width: 1200, height: 630, alt: "Hojoon portfolio" }],
+      images: [{ url: new URL("/og-v2.png", base), width: 1200, height: 630, alt: "Hojoon Kim — Software, ML, and Data" }],
     },
     twitter: {
       card: "summary_large_image",
       title: "Hojoon — Portfolio",
-      description: "I turn curiosity into useful things.",
-      images: [new URL("/og.png", base)],
+      description: "Software engineering, machine learning, and data projects by Hojoon Kim.",
+      images: [new URL("/og-v2.png", base)],
     },
   };
 }
