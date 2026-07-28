@@ -1,5 +1,6 @@
 /* eslint-disable @next/next/no-img-element -- static assets avoid vinext's incompatible image optimizer */
 import RotatingRole from "./RotatingRole";
+import SectionLink from "./SectionLink";
 
 const experience = [
   {
@@ -52,9 +53,9 @@ export default function Home() {
   return (
     <main>
       <header className="site-header">
-        <a className="brand" href="#top" aria-label="Hojoon Kim, home">
+        <SectionLink className="brand" targetId="top" aria-label="Hojoon Kim, home">
           HOJOON KIM<span>.</span>
-        </a>
+        </SectionLink>
         <nav className="header-links" aria-label="Primary navigation">
           <a href="https://github.com/Hojoon118" target="_blank" rel="noreferrer">GitHub ↗</a>
           <a href="https://www.linkedin.com/in/h-j-kim" target="_blank" rel="noreferrer">LinkedIn ↗</a>
@@ -76,8 +77,8 @@ export default function Home() {
             high-reliability operations.
           </p>
           <div className="hero-actions">
-            <a className="button button-primary" href="#projects">View projects <span>↓</span></a>
-            <a className="button button-secondary" href="#experience">Career & experience</a>
+            <SectionLink className="button button-primary" targetId="projects">View projects <span>↓</span></SectionLink>
+            <SectionLink className="button button-secondary" targetId="experience">Career & experience</SectionLink>
           </div>
         </div>
 
@@ -98,10 +99,10 @@ export default function Home() {
       </section>
 
       <div className="quick-nav" aria-label="Page sections">
-        <a href="#projects">01 / Projects</a>
-        <a href="#experience">02 / Experience</a>
-        <a href="#profile">03 / Profile</a>
-        <a href="#contact">04 / Contact</a>
+        <SectionLink targetId="projects">01 / Projects</SectionLink>
+        <SectionLink targetId="experience">02 / Experience</SectionLink>
+        <SectionLink targetId="profile">03 / Profile</SectionLink>
+        <SectionLink targetId="contact">04 / Contact</SectionLink>
       </div>
 
       <section className="section projects-section" id="projects">
@@ -296,7 +297,7 @@ export default function Home() {
       <footer>
         <p>© {new Date().getFullYear()} Hojoon Kim</p>
         <p>Designed for software + AI opportunities.</p>
-        <a href="#top">Back to top ↑</a>
+        <SectionLink targetId="top">Back to top ↑</SectionLink>
       </footer>
     </main>
   );

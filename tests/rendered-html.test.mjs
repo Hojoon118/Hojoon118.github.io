@@ -42,10 +42,10 @@ test("server-renders the portfolio content", async () => {
 });
 
 test("keeps anchor navigation responsive and AI copy legible", async () => {
-  const css = await readFile(
-    new URL("../app/globals.css", import.meta.url),
-    "utf8",
-  );
+  const [css, sectionLink] = await Promise.all([
+    readFile(new URL("../app/globals.css", import.meta.url), "utf8"),
+    readFile(new URL("../app/SectionLink.tsx", import.meta.url), "utf8"),
+  ]);
 
   assert.match(
     css,
@@ -60,4 +60,8 @@ test("keeps anchor navigation responsive and AI copy legible", async () => {
     /\.ai-project\s+\.project-lead\s*\{\s*color:\s*#f5f8f7\s*!important;\s*\}/,
   );
   assert.doesNotMatch(css, /html\s*\{\s*scroll-behavior:\s*smooth;/);
+  assert.match(sectionLink, /event\.preventDefault\(\)/);
+  assert.match(sectionLink, /event\.nativeEvent\.stopImmediatePropagation\(\)/);
+  assert.match(sectionLink, /window\.history\.pushState\(null,\s*""/);
+  assert.match(sectionLink, /window\.scrollTo\(\{/);
 });
